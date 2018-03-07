@@ -1,0 +1,44 @@
+/* box-flex */
+.wrap{
+    display:-moz-box;   /*没有浏览器支持display:box; 用display:-moz-box;替代*/
+    display:-webkit-box;
+
+    -moz-box-orient: horizontal;/*box-orient子元素的 水平垂直 排列 ，还有可取值有horizontal|vertical|inline-axis|box-axis|inherit*/
+    -webkit-box-orient: horizontal;
+
+    -moz-box-direction: normal;/*box-direction子元素的 水平排列 顺序normal|reverse|inherit */
+    -webkit-box-direction:normal;
+
+    -moz-box-align:center; /*box-align 子元素的 垂直对齐 方式;box-align:center|start|end|stretch*/
+    -webkit-box-align:center;
+
+    -moz-box-pack:start; /*box-pack 子元素的 水平对齐 方式;box-pack:start|end|center|justify*/
+    -webkit-box-pack:start;
+
+
+    border:1px solid #ccc;
+
+    /* height:100px;   父元素有高度时高度为父元素的值， 没有时以子元素最大的值 */
+}
+.sectionOne{
+    background:red;
+    -webkit-box-flex: 3;  /* box-flex设置子元素是父元素的比例*/
+    
+    height:50px;
+    -moz-box-flex:3;
+    
+}
+.sectionTwo{
+    background:orange;
+    -webkit-box-flex:2;
+    -moz-box-flex:2;
+    height:30px;
+
+}
+.sectionThree{
+    background:blue;
+    -webkit-box-flex:1;
+    -moz-box-flex:1;
+    height:70px;
+}
+

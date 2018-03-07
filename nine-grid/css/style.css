@@ -1,0 +1,23 @@
+/*nine-grid-css*/
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    width:100%;
+    height:100%;
+}
+.container{
+    width:50vw;
+    margin:2% auto;
+
+}
+.container div{
+    width:30%;
+    padding-top:30%;
+    border-radius:10%;
+    background:orange;
+    margin:0 2% 2% 0;
+    float:left;
+
+}
