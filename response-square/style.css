@@ -1,0 +1,76 @@
+/* css response square */
+body{
+    margin:0;
+    padding:0;
+}
+h1{
+    text-align:center;
+}
+
+
+section{
+    padding-bottom:20px;
+    border-bottom:3px solid #ccc;
+
+}
+
+section:after{
+    content:'';
+    display:table;
+    clear:both;
+}
+
+.box{
+    float:left;
+    width:20%;
+    margin:0 2.5%;
+    background:orange;
+    font-size:2vw;
+    position:relative;
+    overflow:hidden;
+    text-align:center;
+}
+.box:nth-child(3){
+    background:violet;
+}
+.box:nth-child(4){
+    background:yellowgreen;
+}
+.box:nth-child(5){
+    background:skyblue;
+}
+
+
+#viewwidth .box{
+    height:20vw;
+}
+
+#padding-bottom .box{
+    padding-bottom:20%;
+    height:0;
+    max-height:100px;
+}
+
+#margin-top{
+  overflow:hidden;
+}
+
+#margin-top .box:after{
+    content:'';
+    display:block;
+    margin-top:100%;
+}
+
+#margin-height{
+    overflow:hidden;
+}
+
+#margin-height .box:after{
+    content:"";
+    display:block;
+    margin-top:100%;
+}
+
+#margin-height .box:nth-child(3){
+    max-height:2em;
+}

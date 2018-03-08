@@ -1,0 +1,79 @@
+/* mojing css */
+body{
+    padding:0;
+    margin:0;
+    font-family:monospace;
+    color:#fff;
+    font-size:16px;
+    font-weight:bolder;
+    box-sizing:border-box;
+    width:100%;
+    height:100%;
+}
+
+
+
+.container{
+    background:#68cdd5;
+    /* height:605px; */
+    height:100%;
+    padding:20px 20px 0;
+    max-width:1200px;
+    margin:0 auto;
+    position:relative;
+    overflow:hidden;
+
+}
+p{
+    font-size:1.5rem;
+}
+
+
+.arrows{
+    width:54px;
+    height:54px;
+    background:url("./images/task3_03.png") no-repeat 0 0;
+
+}
+
+
+.content{
+    margin: 20% auto 39%;
+    overflow:hidden;
+}
+
+.logo{
+    width:181px;
+    height:70px;
+    background:url("./images/task3_07.png") no-repeat 0 0;
+    margin:0 auto;
+   
+}
+.content p{
+    text-align:center;
+    margin:100px auto;
+}
+
+.footer{
+    margin-bottom:1%;
+    overflow:hidden;
+}
+
+
+.crowd{
+    width:86px;
+    height:84px;
+    background:url("./images/task3_11.png") no-repeat 0 0;
+    background-size:contain;
+    margin-left:10%;
+    float:left;
+}
+
+.ptteng{
+    width:85px;
+    height:85px;
+    background:url("./images/task3.png") no-repeat 0 0;
+    margin-right:10%;
+    float:right;
+}
+
