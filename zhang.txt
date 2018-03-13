@@ -4,3 +4,4 @@ this is 18/3/5 modified
 this is 18/3/12 modified.
 this commit -a.
 this commit files.
+diff  --cache HEAD 18/3/13
