@@ -1,0 +1,93 @@
+/* layout css */
+*{
+    margin:0;
+    padding:0;
+}
+
+html{
+    font-size:62.5%;
+    height:100%;
+    width:100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+body{
+    font:normal Arial, sans-serif;
+    font-size:2rem;
+    color:#fff;
+    height:100%;
+}
+img{
+    display:inline-block;
+    /* max-width:100%; */
+    height:auto;
+    width:4.4rem;
+}
+.container{
+    background-color:#68cdd5;
+    /* max-width:1200px; */
+    margin:0 auto;
+    /* padding:0 3%; */
+    position:relative;
+    overflow:hidden; /*触发bfc */
+    height:100%;
+    width:100%;
+}
+
+.arrow{
+    /* width:54px;
+    height:54px;
+    background:url('../images/task3_03.png') no-repeat 0 0;
+    background-size:contain; */
+    margin-top:3%;
+    padding-left:4%;
+}
+
+
+.content{
+    width:80%;
+    margin:0 auto;
+    padding:5% 0 10%;
+    text-align:center; 
+
+}
+
+.content .logo{
+    width:21rem;
+    height:8rem;
+    background:url('../images/task3_07.png') no-repeat 2rem 0;
+    /* background-size:cover; */
+    margin:0 auto 10%;
+}
+
+.btn{
+    margin:0 auto;
+    padding:0 7.1%;
+    overflow:hidden;
+    /* position:absolute;
+    bottom:0; */
+} 
+/* .btn .left, .btn .right{
+    padding-top:8.2%;
+}
+.btn .left{
+    background:url('../images/task3_11.png') no-repeat 0 0;
+    float:left;
+    margin-left:3%;
+}
+.btn .right{
+    background:url('../images/task3_13.png') no-repeat 0 0;
+    float:right;
+    margin-right:3%;
+} */
+
+.btn .left{
+    float:left;
+    text-align:center;
+}
+
+.btn .right{
+    float:right;
+    text-align:center;
+}
