@@ -1,0 +1,166 @@
+/* css task-5  */
+*{
+    margin:0;
+    padding:0;
+}
+html{
+    color:#fff;
+    font-size:62.5%;
+}
+
+a{
+    text-decoration:none;
+}
+ul li {
+    list-style:none;
+}
+
+.header{
+    background:#5fc0cd;
+    text-align:center;
+    /* padding:0 2rem; */
+    position:fixed;
+    top:0;
+    z-index:1;
+    width:100%;
+    box-sizing:border-box;
+}
+.header a{
+    background: url(../images/back.png) no-repeat 0 0.9rem;
+    width: 2rem;
+    height: 5rem;
+    position:absolute;
+    left:2rem;    
+    background-size: contain;
+}
+
+.header a, .header span{
+    font-size:2.5rem;
+    line-height:5rem;
+}
+
+
+/* banner */
+.banner{
+    /* position:relative; */
+    /* padding-top:31rem; */
+    /* overflow:hidden; */
+    display:flex;
+    display:-webkit-flex;
+    align-items:center;
+   
+    /* box-sizing:border-box;  */
+    /* width:100%; */
+    background:url("../images/banner@2x.jpg") no-repeat 0 0;
+    background-size:cover;
+   
+
+}
+.person{
+    /* float:left; */
+    /* width:20%; */
+    padding: 6em 3em 6em 5em;
+
+}   
+.person img{
+    max-width:100%;
+    height:auto;
+}
+
+.intro{
+    /* float:left; */
+    font-size:1.5em;
+    line-height:2.5em;
+}
+.intro img{
+    vertical-align:middle;
+    margin-right:1rem;
+}
+
+
+/* list */
+.main{
+    margin:5rem 0 10rem;
+}
+
+.main ul{
+    color:#000;
+    font-size:1.7rem;
+    /* font-weight: 500; */
+}
+.main ul li{
+    border-bottom: 1px solid #ccc;
+    /* height:5rem; */
+    line-height:5rem;
+    padding:0 2rem;
+
+}
+
+.list_1 span:nth-child(1){
+    display:inline-block; 
+    border:2px solid #5fc0cd; 
+    height:2rem;
+    margin-right:2rem;
+    padding:0;
+}
+
+.list_1 span,.list_2 img, .list_2 span{
+    vertical-align: middle;
+}
+
+.list_3 span:nth-child(1){
+    padding-right:4rem;
+    margin-right:2rem;
+    border-right:2px solid #ccc;
+}
+
+.main ul .list_4 {
+   display:flex;
+   display:-webkit-flex;
+
+   /* flex-direction:row;
+   flex-wrap:no-wrap;
+   justify-content:space-between; */
+    line-height: 3rem;
+
+}
+.list_4 .sf{
+    margin-right: 2rem;
+    align-self: center;
+    /* width: 6rem; */
+    border-right: 2px solid rgb(194, 189, 189);
+    padding-right: 3.9rem;
+    white-space: nowrap;
+}
+/* .list_4 .eval{
+    flex-wrap:wrap;
+} */
+
+
+
+.footer{
+    position:fixed;
+    bottom:1rem;
+    width:100%;
+    padding:0 0.5rem;
+    box-sizing: border-box;
+
+}
+.message, .contect{
+    border:2px solid #5fc0cd;
+    border-radius:1rem;
+    color:#5fc0cd;
+    font-size:2.5rem;
+    text-align:center;
+    width:48%;
+    height:5rem;
+    line-height:5rem;
+    float:left;
+    background:#fff;
+}
+
+.contect{
+    background:#5fc0cd;
+    color:#fff;
+    float:right
+}

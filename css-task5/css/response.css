@@ -1,0 +1,44 @@
+/* response css */
+/* media query */
+
+@media only screen and (min-width:768px) and (max-width:1024px){
+    html{
+        font-size:62.5%;
+    }
+   
+}
+
+@media only screen and (min-device-width:425px) and (max-device-width:767px){
+    html{
+        font-size:115%;
+    }
+    /* .banner{
+        padding-top:24rem;
+    } */
+}
+
+@media only screen and (min-device-width:375px) and (max-device-width:424px){
+    html{
+        font-size:140%;
+    }
+    /* .banner{
+        padding-top:20rem;
+    } */
+}
+
+@media only screen and (min-device-width:320px) and (max-device-width:374px){
+    html{
+        font-size:150%;
+    }
+    /* .banner{
+        padding-top:20rem;
+    } */
+}
+@media only screen and (max-device-width:320px){
+    html{
+        font-size:170%;
+    }
+    /* .banner{
+        padding-top:16rem;
+    } */
+}
